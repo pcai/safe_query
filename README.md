@@ -17,7 +17,9 @@ this before any unsafe code hits production.
 
 ## How it works
 
-With this gem installed, Rails will throw an exception when you make an unsafe query.
+With this gem installed, Rails will throw an exception when you make an unsafe query:
+
+![image](https://user-images.githubusercontent.com/222655/227005861-a9ab39cc-dfa9-4adc-8c30-e71bd2b73fb9.png)
 
 ## Compatibility:
 
@@ -90,3 +92,10 @@ to this:
 ```ruby
 book.authors.to_a.find_by ...
 ```
+
+# Contributing
+
+- Fork repository
+- `bundle install`
+- Make your change, add tests, and ensure they are passing with `bundle exec rspec`
+- Open pull request
