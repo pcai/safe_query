@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
     Helps developers avoid unsafe queries in ActiveRecord. This gem will raise an error 
     when iterating over a relation that is potentially unpaginated.
   EOF
-  s.required_ruby_version = '>= 2.6.0'
+  s.required_ruby_version = '>= 2.7.0'
 
   s.license = 'MIT'
 

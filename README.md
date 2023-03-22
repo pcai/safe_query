@@ -22,7 +22,7 @@ With this gem installed, Rails will throw an exception when you make an unsafe q
 ## Compatibility:
 
 - Rails 5+
-- Ruby 2.6+
+- Ruby 2.7+
 - Postgres, MySQL, SQLite, maybe others (untested)
 
 ## Installation:
