@@ -22,6 +22,8 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency "rspec", "~> 3.12"
   s.add_development_dependency "sqlite3", "~> 1.6.1"
+  
+  s.metadata["rubygems_mfa_required"] = "true"
 
   s.files = Dir['CHANGELOG.md', 'LICENSE', 'README.md', 'lib/**/*.rb']
 
