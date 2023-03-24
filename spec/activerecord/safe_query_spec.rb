@@ -16,4 +16,8 @@ RSpec.describe ActiveRecord::Relation::SafeQuery do
   it "does not raise an error when iterating over a relation with an in clause and a limit" do
     expect { User.where(id: [1, 2, 3]).limit(1).each {} }.to_not raise_error
   end
+
+  it "does not raise an error when iterating over a relation converted to an array" do
+    expect { User.all.to_a.each {} }.to_not raise_error
+  end
 end
