@@ -88,20 +88,17 @@ which might be a problem if your enforcement logic is flawed in some way.
 You can ignore this problem (and prevent SafeQuery from raising) by converting the relation to an array with `to_a` before you operate on it:
 
 ```ruby
-book.authors.find_by ...
+book.authors.each ...
 ```
 
 to this:
 
 ```ruby
-book.authors.to_a.find_by ...
+book.authors.to_a.each ...
 ```
 
 Obviously, you should only do this if you are sure that the number of records is bounded to a reasonable number somewhere else.
 
 # Contributing
 
-- Fork repository
-- `bundle install`
-- Make your change, add tests, and ensure they are passing with `bundle exec rspec`
-- Open pull request
+see [CONTRIBUTING.md](https://github.com/pcai/safe_query/blob/main/.github/CONTRIBUTING.md)
