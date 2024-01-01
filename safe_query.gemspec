@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency "activesupport", ">= 5.0", "< 8.0"
 
   s.add_development_dependency "rspec", "~> 3.12"
-  s.add_development_dependency "sqlite3", "~> 1.6.1"
+  s.add_development_dependency "sqlite3", "~> 1.7.0"
   
   s.metadata["rubygems_mfa_required"] = "true"
 
