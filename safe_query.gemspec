@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.license = 'MIT'
 
-  s.add_dependency "activerecord", ">= 5.0", "< 8.0"
+  s.add_dependency "activerecord", ">= 5.0", "< 9.0"
   s.add_dependency "activesupport", ">= 5.0", "< 8.0"
 
   s.add_development_dependency "rspec", "~> 3.12"
